@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Chatbot from "./components/Chatbot/Chatbot";
+import Home from "./components/Home/Home";
+import Nav from "./components/Nav/Nav";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Home />
+      <Chatbot />
+      <iframe className="autocreated"                                                                     //this is googles own verison of the diaglogflow intergration// 
+      src="https://console.dialogflow.com/api-client/demo/embedded/e4ec22aa-537a-445f-b731-bfbbc4f3e247">
+        </iframe>
     </div>
   );
 }
 
 export default App;
+
+
+
