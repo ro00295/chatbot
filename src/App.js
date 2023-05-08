@@ -1,23 +1,16 @@
 import Chatbot from "./components/Chatbot/Chatbot";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import {BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <div className="App">
-      <Chatbot />
       <Nav />
-      <BrowserRouter>
-        <Routes>
-        <Route index element={<Home />}></Route>
-        <Route path = "/home" element ={<Home />}></Route>
-        <Route path = "/about" element ={<About />}></Route>
-        <Route path = "/contact" element ={<Contact />}></Route>
-        </Routes>
-      </BrowserRouter>
+      <Home />
+      <Chatbot />
+      {/* <iframe className="autocreated"                                                                     //this is googles own verison of the diaglogflow intergration// 
+      src="https://console.dialogflow.com/api-client/demo/embedded/e4ec22aa-537a-445f-b731-bfbbc4f3e247">
+        </iframe> */}
     </div>
   );
 }

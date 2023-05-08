@@ -25,6 +25,7 @@
 .chatbotmid{
     height: 35rem;
     background-color: rgb(165, 243, 165);
+    overflow-y: scroll;
 }
 
 .chatbotfoot{
@@ -54,4 +55,35 @@
     left: 15rem;
     height: 45rem;
     width: 35rem;
+}
+
+.messages{
+    padding: .5rem 1rem;
+}
+
+.messages_user{   
+    display: flex;
+    justify-content: end;
+}
+
+.messages_df{
+    display: flex;
+    justify-content: start;
+}
+
+.messages_text_user{
+    padding: .5rem 1rem;
+    background-color: rgb(212, 211, 211);
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.messages_text_df{
+    padding: .5rem 1rem;
+    color: #fff;
+    background-color: rgb(83, 82, 82);
+    border-top-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
