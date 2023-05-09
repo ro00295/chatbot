@@ -8,9 +8,9 @@ const Nav = () => {
                 <div>
                     <nav>
                         <ul>
-                            <li><a href='/home'>Home</a></li>
-                            <li><a href='/about'>About</a></li>
-                            <li><a href='/contact'>Contact Us</a></li>
+                            <li><a href='https://www.microsoft.com/en/microsoft-365/excel'>Home</a></li>
+                            <li><a href='https://www.microsoft.com/en-us/about'>About</a></li>
+                            <li><a href='https://www.microsoft.com/en/microsoft-365/support'>Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>

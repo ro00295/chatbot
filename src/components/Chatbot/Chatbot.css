@@ -1,57 +1,84 @@
-.chatbot{
+.chatbot {
     position: absolute;
-    bottom: 2rem;
+    bottom: 10rem;
     right: 15rem;
     height: 45rem;
     width: 35rem;
-    background-color:rgb(165, 243, 165);
+    background: linear-gradient(to bottom right, rgb(224, 196, 15), rgb(229, 167, 60));
     border-radius: 1.2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     z-index: 1000;
     overflow: hidden;
-}
-
-.chatbothead{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .chatbothead {
     height: 4rem;
-    background-color: #4b4b4b;
-}
-
-.chatbotheadtext{
+    background-color: #d8e2c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatbotheadtext {
     line-height: 0%;
     margin: 0;
-    color: #ffffff;
-    padding: 2rem;
-}
-
-.chatbotmid{
-    height: 35rem;
-    background-color: rgb(165, 243, 165);
-}
-
-.chatbotfoot{
+    color: 4b4b4b;
+    font-size: 1.5rem;
+  }
+  
+  .chatbotmid {
+    height: 32rem;
+    background: linear-gradient(to bottom right, rgb(127, 233, 28), rgb(219, 211, 3));
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+    overflow-y: scroll;
+  }
+  
+  .chatbotfoot {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 6rem;
-    background-color: #4b4b4b;
-}
-
-.chatbotfootinput{
+    background-color: #d8e2c8;
+    padding: 1rem;
+  }
+  
+  .chatbotfootinput {
     width: 80%;
     padding: 1rem;
-
-}
-
-.chatbotfootsend{
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .chatbotfootsend {
     height: 3rem;
     width: 20%;
     border: none;
-    color: #4b4b4b;
-}
-
-.autocreated{
+    color: #ffffff;
+    background-color: #333735;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .chatbotfootsend:hover {
+    background-color: #d41b1b;
+  }
+  
+  .autocreated {
     position: absolute;
     bottom: 2rem;
     left: 15rem;
     height: 45rem;
     width: 35rem;
-}
+    background: linear-gradient(to bottom right, rgb(165, 243, 165), rgb(128, 220, 128));
+    border-radius: 1.2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
