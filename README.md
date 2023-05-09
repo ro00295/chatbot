@@ -1,26 +1,6 @@
 # chatbot - Getting Started with Create React App
  ADVANCED CHALLENGES IN WEB TECH(COM3014) -  ALL code in master branch
  
- 
- 
- 
-
-
-
-
-
-This project was bootstrapped with React App.
-
-Available Scripts
-In the project directory, you can run: Runs the backend of the app in the development mode.\
-
-npm start
-Open http://localhost:3000
-
-Runs the app in the development mode..\
-
-npm start
-Open http://localhost:5000 to view it in your browser.
 
 In the project directory, you can run:
 
@@ -48,6 +28,23 @@ Type npm start
 
 you will have succesfully started the react web app and the backend server
 
-you willaslo be able to just start the backend and then click the link above (localhost:3000)
+you will aslo be able to just start the backend and then click the link below (localhost:3000)
 
 Troubleshoot check ports match
+
+
+
+
+
+This project was bootstrapped with React App.
+
+Available Scripts
+In the project directory, you can run: Runs the backend of the app in the development mode.\
+
+npm start
+Open http://localhost:3000
+
+Runs the app in the development mode..\
+
+npm start
+Open http://localhost:5000 to view it in your browser.
