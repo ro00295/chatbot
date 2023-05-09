@@ -1,0 +1,22 @@
+.titletext{
+    color: black;
+    text-decoration: overline;
+    font-size: 40px;
+    padding: 2rem
+}
+
+.subtitle{
+    color: black;
+    font-size: 25px;
+    padding-left: 2rem;
+}
+
+.list{
+    padding-left: 4rem;
+    color:black
+}
+
+.simpletext{
+    padding-left:2rem;
+    color:black
+}
