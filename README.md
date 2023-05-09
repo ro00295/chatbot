@@ -1,4 +1,4 @@
-# chatbot
+# chatbot - Getting Started with Create React App
  ADVANCED CHALLENGES IN WEB TECH(COM3014)
  
  
@@ -8,7 +8,7 @@
 
 
 
-Getting Started with Create React App
+
 This project was bootstrapped with React App.
 
 Available Scripts
